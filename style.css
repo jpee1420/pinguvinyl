@@ -55,7 +55,7 @@ section {
   margin: 0 50px;
 }
 
-#landing {
+.landing {
    margin: 0;
   height: 100vh;
   display: flex;
