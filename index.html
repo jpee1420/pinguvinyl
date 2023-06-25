@@ -1,65 +1,99 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Pingu Vinyl</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title class="title">Pingu Vinyl</title>
 </head>
+
 <body>
-  <header>
+  <header class="header">
     <div class="logo">
-      <img src="image/foodpanda.png" alt="Title Logo">
+      <img src="image/foodpanda.png" alt="Title Logo" />
     </div>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <nav class="navigation">
+      <ul class="menu">
+        <li><a href="#about" class="menu-link">About</a></li>
+        <li><a href="#products" class="menu-link">Products</a></li>
+        <li><a href="#services" class="menu-link">Services</a></li>
+        <li><a href="#portfolio" class="menu-link">Portfolio</a></li>
+        <li><a href="#contact" class="menu-link">Contact</a></li>
       </ul>
     </nav>
   </header>
-  
+
   <section class="landing" id="landing">
-    <video autoplay loop muted>
-      <source src="video/video.mp4" type="video/mp4">
-    </video>
+    <!-- <video autoplay loop muted class="video">
+      <source src="video/video.mp4" type="video/mp4" />
+    </video> -->
   </section>
-  
-  <section id="about">
-    <h2>About Us...</h2>
-    <p>At PinguVinyl, we specialize in creating custom stickers, digital art, and graphic designs that will elevate your brand, event, or personal style. We are passionate about the design as well as, every piece of artwork we create should be a unique reflection of the client's vision and personality.</p>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About Us...</h2>
+    <p class="section-content">
+      At PinguVinyl, we specialize in creating custom stickers, digital art,
+      and graphic designs that will elevate your brand, event, or personal
+      style. We are passionate about the design as well as, every piece of
+      artwork we create should be a unique reflection of the client's vision
+      and personality.
+    </p>
   </section>
-  
-  <section id="products">
-    <h2>Products</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo elit. Phasellus in augue vitae neque auctor rhoncus.</p>
+
+  <section id="products" class="products">
+    <h2 class="section-title">Products</h2>
+    <p class="section-content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo
+      elit. Phasellus in augue vitae neque auctor rhoncus.
+    </p>
   </section>
-  
-  <section id="services">
-    <h2>Services</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo elit. Phasellus in augue vitae neque auctor rhoncus.</p>
+
+  <section id="services" class="services">
+    <h2 class="section-title">Services</h2>
+    <p class="section-content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo
+      elit. Phasellus in augue vitae neque auctor rhoncus.
+    </p>
   </section>
-  
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo elit. Phasellus in augue vitae neque auctor rhoncus.</p>
+
+  <section id="portfolio" class="portfolio">
+    <h2 class="section-title">Portfolio</h2>
+    <p class="section-content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo
+      elit. Phasellus in augue vitae neque auctor rhoncus.
+    </p>
   </section>
-  
-  <footer id="contact">
-    <h2>Reach Us</h2>
-    <ul>
-        <li><a href="tel:+639060932633">+639060932633</a></li>
-        <li><a href="mailto:PinguVinyl@gmail.com" target="_blank">PinguVinyl@gmail.com</a></li>
-        <li><a href="https://web.facebook.com/eunelleenya.reytanaii" target="_blank">facebook.com/PinguVinyl</a></li>
-        <li><a href="https://web.facebook.com/eunelleenya.reytanaii" target="_blank">instagram.com/PinguVinyl</a></li>
-        <li><a href="https://www.google.com/maps/@16.0255923,120.2285865,21z?entry=ttu" target="_blank">#5 Brgy. Poblacion Lingayen, Pangasinan</a></li>
-    </ul>
-    <hr>
-    <img src="image/frame.png" alt="">
-  </footer>
+
+  <section id="contact" class="contact">
+    <div class="contact-container">
+      <h2 class="section-title">Reach Us</h2>
+      <ul class="contact-list">
+        <li><img src="icons/telephone-call.png" alt="icons" class="icons"><a href="tel:+639060932633" class="contact-link">+639060932633</a></li>
+        <li><img src="icons/arroba.png" alt="icons" class="icons"> <a href="mailto:PinguVinyl@gmail.com" target="_blank" class="contact-link">PinguVinyl@gmail.com</a></li>
+        <li><img src="icons/facebook.png" alt="icons" class="icons"> <a href="https://web.facebook.com eunelleenya.reytanaii" target="_blank" class="contact-link">facebook.com/PinguVinyl</a></li>
+        <li><img src="icons/instagram.png" alt="icons" class="icons"><a href="https://www.instagram.com/PinguVinyl" target="_blank" class="contact-link">instagram.com/PinguVinyl</a></li>
+        <li><img src="icons/maps-and-flags.png" alt="icons" class="icons"><a href="https://www.google.com/maps/@16.0255923,120.2285865,21z?entry=ttu" target="_blank" class="contact-link">#5 Brgy. Poblacion Lingayen, Pangasinan</a></li>
+      </ul>
+      <hr class="divider" />
+    </div>
+    <div class="contact-form-container">
+      <h2 class="section-title">Message Us</h2>
+      <form id="contact-form" action="submit_form.php" method="POST" class="contact-form">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" id="name" name="name" required class="form-input">
+
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" id="email" name="email" required class="form-input">
+
+        <label for="message" class="form-label">Message:</label>
+        <textarea id="message" name="message" required class="form-textarea"></textarea>
+
+        <button type="submit" class="form-button">Submit</button>
+      </form>
+    </div>
+  </section>
 </body>
+
 </html>
