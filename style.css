@@ -1,4 +1,8 @@
 /* CSS styles for the website */
+* {
+   /* box-sizing: border-box; */
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,6 +13,9 @@ body {
 header {
   background-color: #333;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo img {
@@ -34,16 +41,22 @@ nav ul li a {
   transition: color 0.3s ease;
 }
 
+.logo img, nav {
+   margin: 0 50px;
+}
+
 nav ul li a:hover {
-  color: #ff6f00;
+  color: #6ef6f6;
 }
 
 section {
   padding: 50px;
   color: #333;
+  margin: 0 50px;
 }
 
 #landing {
+   margin: 0;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -53,7 +66,8 @@ section {
 
 video {
   width: 100%;
-  height: auto;
+  height: 100vh;
+  margin: 0 50px;
 }
 
 h2 {
@@ -68,11 +82,28 @@ p {
 }
 
 a {
-  color: #ff6f00;
+  color: #00afaf;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #ff9100;
+  color: #6ef6f6;
+}
+
+footer {
+   padding: 50px 50px 0;
+   margin: 0 50px;
+   color: #333;
+}
+
+#contact ul {
+   list-style-type: none;
+}
+
+#contact img {
+   height: 150px;
+   width: auto;
+   margin: 20px 50%;
+
 }
