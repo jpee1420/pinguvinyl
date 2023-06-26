@@ -19,7 +19,245 @@ body {
 
 .container {
     margin: 20px 0;
-    bottom: 20px;
+    bottom: 20px;/* Global styles */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+    }
+    
+    /* Header styles */
+    header {
+        margin: 0;
+        background-color: white;
+    }
+    
+    .main-header {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 5px 0px #333;
+    }
+    
+    .header-logo img {
+        margin: 0 20px;
+        height: 50px;
+        position: relative;
+    }
+    
+    .menu li {
+        position: relative;
+        top: 5px;
+    }
+    
+    .menu {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    
+    .nav-bar ul li {
+        margin: 0 10px;
+    }
+    
+    .nav-bar ul li a {
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s ease;
+    }
+    
+    .nav-bar ul li a:hover {
+        color: #6ef6f6;
+    }
+    
+    /* Landing styles */
+    .landing {
+        background-image: url(image/landing.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        opacity: 0.9;
+    }
+    
+    .landing img {
+        position: relative;
+        top: 50px;
+        display: block;
+        margin: 0 auto;
+        height: 100px;
+        width: auto;
+        justify-content: center;
+    }
+    
+    .landing-tagline h2 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        bottom: 350px;
+        font: 40px 'Pacifico';
+        color: #1d4e89;
+        text-shadow: 1px 1px 1px #000000;
+    }
+    
+    .btn-shop {
+        cursor: pointer;
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        bottom: 300px;
+        height: 50px;
+        width: 150px;
+        background-color: transparent;
+        border: 3px solid #1d4e89;
+        border-radius: 50px;
+        font-weight: bolder;
+        color: #333;
+        transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+    }
+    
+    .btn-shop:hover {
+        border: 3px solid #1d4e89;
+        background-color: #1d4e89;
+        opacity: 0.9;
+    }
+    
+    /* About styles */
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .section-content {
+        text-align: justify;
+        margin: 10px 0;
+    }
+    
+    .about-image-left img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Contact styles */
+    .content {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .contact-container {
+        flex: 1;
+    }
+    
+    .contact-form-container {
+        flex: 1;
+        margin-left: 50px;
+    }
+    
+    .contact-list {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    
+    .contact-list img {
+        height: 20px;
+        width: auto;
+        margin-right: 15px;
+    }
+    
+    .contact-list li {
+        display: flex;
+        margin: 10px;
+        align-items: center;
+    }
+    
+    .contact-link {
+        color: #015c5c;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .contact-link:hover {
+        color: #6ef6f6;
+    }
+    
+    .divider {
+        border: none;
+        height: 1px;
+        background-color: #565656;
+        margin: 20px 0;
+    }
+    
+    .contact-form h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-form label {
+        font-size: 18px;
+        margin-bottom: 5px;
+        color: #333;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: #d2d1d1;
+    }
+    
+    .contact-form textarea {
+        resize: vertical;
+        height: 100px;
+    }
+    
+    .contact-form button {
+        padding: 10px 20px;
+        background-color: #00afaf;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .contact-form button:hover {
+        background-color: #6ef6f6;
+    }
+    
+    /* Footer styles */
+    .main-footer {
+        /* Add your footer styles here */
+    }
+    
     position: relative;
 }
 /* global */
