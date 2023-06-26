@@ -1,99 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
   <title class="title">Pingu Vinyl</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo">
-      <img src="image/foodpanda.png" alt="Title Logo" />
+  <header>
+    <div class="main-header">
+      <nav class="nav-bar">
+        <ul class="menu">
+          <li><a href="#about" class="menu-link">About</a></li>
+          <li><a href="#services" class="menu-link">Services</a></li>
+            <div class="header-logo"><a href="#">
+              <img src="image/title-logo.png" alt="Title Logo" class="title-logo"/>
+            </a>
+            </div>
+          <li><a href="#portfolio" class="menu-link">Portfolio</a></li>
+          <li><a href="#contact" class="menu-link">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="navigation">
-      <ul class="menu">
-        <li><a href="#about" class="menu-link">About</a></li>
-        <li><a href="#products" class="menu-link">Products</a></li>
-        <li><a href="#services" class="menu-link">Services</a></li>
-        <li><a href="#portfolio" class="menu-link">Portfolio</a></li>
-        <li><a href="#contact" class="menu-link">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <section class="landing" id="landing">
-    <!-- <video autoplay loop muted class="video">
-      <source src="video/video.mp4" type="video/mp4" />
-    </video> -->
-  </section>
-
-  <section id="about" class="about">
-    <h2 class="section-title">About Us...</h2>
-    <p class="section-content">
-      At PinguVinyl, we specialize in creating custom stickers, digital art,
-      and graphic designs that will elevate your brand, event, or personal
-      style. We are passionate about the design as well as, every piece of
-      artwork we create should be a unique reflection of the client's vision
-      and personality.
-    </p>
-  </section>
-
-  <section id="products" class="products">
-    <h2 class="section-title">Products</h2>
-    <p class="section-content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo
-      elit. Phasellus in augue vitae neque auctor rhoncus.
-    </p>
-  </section>
-
-  <section id="services" class="services">
-    <h2 class="section-title">Services</h2>
-    <p class="section-content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo
-      elit. Phasellus in augue vitae neque auctor rhoncus.
-    </p>
-  </section>
-
-  <section id="portfolio" class="portfolio">
-    <h2 class="section-title">Portfolio</h2>
-    <p class="section-content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo
-      elit. Phasellus in augue vitae neque auctor rhoncus.
-    </p>
-  </section>
-
-  <section id="contact" class="contact">
-    <div class="contact-container">
-      <h2 class="section-title">Reach Us</h2>
-      <ul class="contact-list">
-        <li><img src="icons/telephone-call.png" alt="icons" class="icons"><a href="tel:+639060932633" class="contact-link">+639060932633</a></li>
-        <li><img src="icons/arroba.png" alt="icons" class="icons"> <a href="mailto:PinguVinyl@gmail.com" target="_blank" class="contact-link">PinguVinyl@gmail.com</a></li>
-        <li><img src="icons/facebook.png" alt="icons" class="icons"> <a href="https://web.facebook.com eunelleenya.reytanaii" target="_blank" class="contact-link">facebook.com/PinguVinyl</a></li>
-        <li><img src="icons/instagram.png" alt="icons" class="icons"><a href="https://www.instagram.com/PinguVinyl" target="_blank" class="contact-link">instagram.com/PinguVinyl</a></li>
-        <li><img src="icons/maps-and-flags.png" alt="icons" class="icons"><a href="https://www.google.com/maps/@16.0255923,120.2285865,21z?entry=ttu" target="_blank" class="contact-link">#5 Brgy. Poblacion Lingayen, Pangasinan</a></li>
-      </ul>
-      <hr class="divider" />
+  <section class="container">
+    <div class="landing" id="landing">
+      <img src="image/title-logo.png" alt="Title Logo" class="title-logo"/>
     </div>
-    <div class="contact-form-container">
+    <div class="landing-tagline">
+      <h2>Making unique pieces</h2>
+    </div>
+
+    <button type="button" class="btn-shop">Shop Now</button>
+  </section>
+
+  <section class="container">
+    <div id="about" class="box about">
+      <div class="about-section">
+        <h2 class="section-title">About Us...</h2>
+          <p class="section-content ">
+            At PinguVinyl, we specialize in creating custom stickers, digital art,
+            and graphic designs that will elevate your brand, event, or personal
+            style. We are passionate about the design as well as, every piece of
+            artwork we create should be a unique reflection of the client's vision
+            and personality.
+          </p>
+          <p class="section-content">
+            With a strong focus on customization and creativity, Pingu Vinyl is your go-to destination for tailor-made stickers, digital art, and graphic designs that go beyond expectations. We understand the importance of standing out in today's visually-driven world, which is why our team of talented designers is dedicated to bringing your ideas to life. Whether you're looking to enhance your brand's identity, add a personal touch to your event, or express your individual style, we collaborate closely with our clients to ensure that every artwork we create is a true representation of their vision and personality. Let us be your creative partner, and together, we'll turn your imagination into stunning reality.
+          </p>
+      </div>
+      <div class="about-image-right">
+        <!-- <img src="PICS SA WEBSITE/printable-vinyl-sticker-paper-self-adhesive-inkjet-printer-glossy-matte-waterproof-labels_1024x1024.jpg" type="picture/png" alt="about image"/> -->
+      </div>
+    </div>
+  </section>
+  
+  <section class="container">
+    <div id="products" class="box products">
+      <h2 class="section-title">Products</h2>
+        <p class="section-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo
+          elit. Phasellus in augue vitae neque auctor rhoncus.</p>
+    </div>
+  </section>
+
+  <section class="container">
+    <div id="services" class="box services">
+      <h2 class="section-title">Services</h2>
+      <p class="section-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo
+        elit. Phasellus in augue vitae neque auctor rhoncus.</p>
+    </div>
+  </section>
+
+  <section class="container">
+    <div id="portfolio" class="box portfolio">
+      <h2 class="section-title">Portfolio</h2>
+        <p class="section-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo
+          elit. Phasellus in augue vitae neque auctor rhoncus.</p>
+    </div>
+  </section>
+    
+  <section class="container">
+    <div class="box contact-form-container">
       <h2 class="section-title">Message Us</h2>
-      <form id="contact-form" action="submit_form.php" method="POST" class="contact-form">
-        <label for="name" class="form-label">Name:</label>
-        <input type="text" id="name" name="name" required class="form-input">
+        <form id="contact-form" action="submit_form.php" method="POST" class="contact-form">
+          <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" required class="form-input">
 
-        <label for="email" class="form-label">Email:</label>
-        <input type="email" id="email" name="email" required class="form-input">
+          <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" required class="form-input">
 
-        <label for="message" class="form-label">Message:</label>
-        <textarea id="message" name="message" required class="form-textarea"></textarea>
+          <label for="message" class="form-label">Message:</label>
+            <textarea id="message" name="message" required class="form-textarea"></textarea>
 
-        <button type="submit" class="form-button">Submit</button>
+          <button type="submit" class="form-button">Submit</button>
       </form>
     </div>
   </section>
+
+  <footer>
+    <div id="contact" class="main-footer contact">
+      <div class="contact-container">
+        <h2 class="section-title">Reach Us</h2>
+          <ul class="contact-list">
+            <li><img src="icons/telephone-call.png" alt="icons" class="icons"><a href="tel:+639060932633" class="contact-link">+639060932633</a></li>
+            <li><img src="icons/arroba.png" alt="icons" class="icons"> <a href="mailto:PinguVinyl@gmail.com" target="_blank" class="contact-link">PinguVinyl@gmail.com</a></li>
+            <li><img src="icons/facebook.png" alt="icons" class="icons"> <a href="https://web.facebook.com eunelleenya.reytanaii" target="_blank" class="contact-link">facebook.com/PinguVinyl</a></li>
+            <li><img src="icons/instagram.png" alt="icons" class="icons"><a href="https://www.instagram.com/PinguVinyl" target="_blank" class="contact-link">instagram.com/PinguVinyl</a></li>
+            <li><img src="icons/maps-and-flags.png" alt="icons" class="icons"><a href="https://www.google.com/maps/@16.0255923,120.2285865,21z?entry=ttu" target="_blank" class="contact-link">#5 Brgy. Poblacion Lingayen, Pangasinan</a></li>
+          </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

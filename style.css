@@ -8,18 +8,82 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  /* no horizontal scrolling */
 }
 
-.logo img {
+/* header */
+.main-header {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 5px #333;
+}
+
+.header-logo img {
   height: 50px;
   width: auto;
+  margin: 0 20px;
+}
+
+.menu > li {
+  position: relative;
+  top: 5px;
+}
+
+.menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.nav-bar ul > li {
+  margin: 0 10px
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-bar ul li a:hover {
+  color: #6ef6f6;
+}
+/* header */
+
+/* about */
+.about {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d2d1d1;
+}
+
+.about-section {
+  width: 50%;
+  background-color: #565656;
+}
+
+.about-image-left img {
+  height: 500px;
+  width: 500px; 
+}
+/* about */
+
+.products {
+  background-color: wheat;
 }
 
 section {
   padding: 50px;
-  color: #333;
+  color: #000000;
   margin: 0 50px;
+  width: 100%;
 }
 
 h2 {
@@ -31,6 +95,7 @@ h2 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 a {
@@ -43,69 +108,15 @@ a:hover {
   color: #6ef6f6;
 }
 
-footer {
-  padding: 50px;
-  color: #fff;
-  background-color: #333;
-  text-align: center;
-}
-
-.header {
-  background-color: white;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 1px 1px 5px #333;
-}
-
-.header .logo, .navigation {
-  margin: 0 50px;
-}
-
-.logo {
-  display: inline-block;
-}
-
-.navigation ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  color: #333;
-}
-
-.navigation ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.navigation ul li a {
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-.navigation ul li a:hover {
-  color: #6ef6f6;
-}
-
 .landing {
   background-image: url(image/best-sticker-paper-for-a-cricut-11-of-12-683x1023.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 650px;
   opacity: .8;
   padding: 20px;
   margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: aliceblue;
-}
-
-.video {
-  width: 100%;
-  height: 100vh;
 }
 
 .title {
