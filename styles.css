@@ -26,16 +26,15 @@ body {
 
 /* header */
 header {
-    text-align: center;
     margin: 0 ;
     background-color: white;
 }
 
 .main-header {
-    margin: 0 auto;
     padding: 20px;
-    display: block;
+    display: flex;
     align-items: center;
+    justify-content: center;
     box-shadow: 1px 1px 5px 0px #333;
 }
 
